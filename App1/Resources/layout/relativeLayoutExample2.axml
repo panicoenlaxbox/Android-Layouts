@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/TopLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TopLeft" />
+    <TextView
+        android:id="@+id/RightOfTopLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/TopLeft"
+        android:text="RightOf" />
+    <TextView
+        android:id="@+id/Below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/RightOfTopLeft"
+        android:layout_below="@id/TopLeft"
+        android:text="Below" />
+    <TextView
+        android:id="@+id/TopRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="TopRight" />
+    <TextView
+        android:id="@+id/LeftOfTopRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/TopRight"
+        android:text="LeftOf" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/LeftOfTopRight"
+        android:layout_below="@id/TopRight"
+        android:layout_margin="15dp"
+        android:text="Below+Pad" />
+</RelativeLayout>

@@ -1,9 +1,4 @@
-﻿using System;
-using Android.App;
-using Android.Content;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
+﻿using Android.App;
 using Android.Widget;
 using Android.OS;
 
@@ -19,15 +14,21 @@ namespace App1
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            Button linearLayoutExample = FindViewById<Button>(Resource.Id.linearLayoutExample);
-
+            var linearLayoutExample = FindViewById<Button>(Resource.Id.linearLayoutExample);
             linearLayoutExample.Click +=
                 (sender, args) => StartActivity(typeof(LinearLayoutExample));
 
-            Button tableLayoutExample = FindViewById<Button>(Resource.Id.tableLayoutExample);
-
+            var tableLayoutExample = FindViewById<Button>(Resource.Id.tableLayoutExample);
             tableLayoutExample.Click +=
                 (sender, args) => StartActivity(typeof(TableLayoutExample));
+
+            var relativeLayoutExample1 = FindViewById<Button>(Resource.Id.relativeLayoutExample1);
+            relativeLayoutExample1.Click +=
+                (sender, args) => StartActivity(typeof(RelativeLayoutExample1));
+
+            var relativeLayoutExample2 = FindViewById<Button>(Resource.Id.relativeLayoutExample2);
+            relativeLayoutExample2.Click +=
+                (sender, args) => StartActivity(typeof(RelativeLayoutExample2));
         }
     }
 }
