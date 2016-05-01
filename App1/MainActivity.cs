@@ -23,6 +23,11 @@ namespace App1
 
             linearLayoutExample.Click +=
                 (sender, args) => StartActivity(typeof(LinearLayoutExample));
+
+            Button tableLayoutExample = FindViewById<Button>(Resource.Id.tableLayoutExample);
+
+            tableLayoutExample.Click +=
+                (sender, args) => StartActivity(typeof(TableLayoutExample));
         }
     }
 }

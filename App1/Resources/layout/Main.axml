@@ -6,8 +6,13 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
-        android:text="LinearLayoutExample"
+        android:text="linearLayoutExample"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayoutExample" />
+    <Button
+        android:text="tableLayoutExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayoutExample" />
 </LinearLayout>
