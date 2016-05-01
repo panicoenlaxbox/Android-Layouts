@@ -25,4 +25,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/relativeLayoutExample2" />
+    <Button
+        android:text="frameLayoutExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayoutExample" />
 </LinearLayout>

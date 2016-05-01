@@ -12,15 +12,15 @@ using Android.Widget;
 
 namespace App1
 {
-    [Activity(Label = "RelativeLayoutExample1")]
-    public class RelativeLayoutExample1 : Activity
+    [Activity(Label = "RelativeLayoutExample2")]
+    public class RelativeLayoutExample2Activity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.relativeLayoutExample1);
+            SetContentView(Resource.Layout.relativeLayoutExample2);
         }
     }
 }

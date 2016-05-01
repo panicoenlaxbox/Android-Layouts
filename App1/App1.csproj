@@ -50,17 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActivityBase.cs" />
-    <Compile Include="LinearLayoutExample.cs" />
+    <Compile Include="FrameLayoutExampleActivity.cs" />
+    <Compile Include="LinearLayoutExampleActivity.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="RelativeLayoutExample2.cs" />
+    <Compile Include="RelativeLayoutExample2Activity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RelativeLayoutExample1.cs" />
-    <Compile Include="TableLayoutExample.cs" />
+    <Compile Include="RelativeLayoutExample1Activity.cs" />
+    <Compile Include="TableLayoutExampleActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
-    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\Main.axml">
       <SubType>AndroidResource</SubType>
@@ -72,6 +73,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\relativeLayoutExample2.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\frameLayoutExample.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
